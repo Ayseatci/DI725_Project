@@ -2,6 +2,7 @@ accelerate==1.13.0
 huggingface_hub==1.11.0
 matplotlib==3.10.0
 numpy==2.0.2
+open_clip_torch==3.3.0
 pandas==2.2.2
 Pillow==11.3.0
 scikit-learn==1.6.1
