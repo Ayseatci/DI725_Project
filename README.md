@@ -61,12 +61,27 @@ All experiments use consistent training settings (learning rate, batch size, epo
 
 ## Repository Structure
 
-    notebooks/
-        swinv2_experiments.ipynb
-        maxvit_experiments.ipynb
     data/
-    requirements.txt
+
+    notebooks/
+        01_eda/
+            DI725_Term_Project_EDA_244...
+            README.md
+        02_poc/
+            DEIT_Proof_of_Concept_DI725...
+            Resnet_Proof_of_Concept_DI7...
+            SWIN_Proof_of_Concept_DI72...
+            README.md
+        03_phase2/
+            SWIN_V2.ipynb
+            MaxVit.ipynb
+            README.md
+
+    reports/
+    results/
+
     README.md
+    requirements.txt
 
 ## Notes
 
