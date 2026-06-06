@@ -48,4 +48,4 @@ Image and text features are combined through a gated fusion mechanism with a lea
 
 ## Tracking
 
-All experiments are logged to Weights & Biases under the project `DI725-Project-landcover-regression_phase3_experiments`.
+All experiments are logged to Weights & Biases under the project `DI725-Project-landcover-regression_phase2_experiments`.
