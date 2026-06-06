@@ -33,5 +33,5 @@ Each notebook follows the same pipeline:
 ## Tracking
 
 All experiments are logged to Weights & Biases:
-- Main experiments (scale 0.7): `DI725-Project-landcover-regression_phase3_experiments`
-- Text scale ablation: `DI725-Project-landcover-regression_phase3_text_scale_exp`
+- Main experiments (scale 0.7): `DI725-Project_phase3_experiments`
+- Text scale ablation: `DI725-Project_phase3_text_scale_exp`
