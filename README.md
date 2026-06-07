@@ -1,9 +1,7 @@
 # DI725 Project
 ## Multimodal Land Cover Regression (Image + Text)
 
-This project investigates whether incorporating textual descriptions improves land cover
-area estimation compared to image only models, and how model capacity and caption type
-influence the benefit of multimodal fusion.
+This project investigates whether incorporating textual descriptions improves land cover area estimation compared to image only models, and how model capacity influences the benefit of multimodal fusion.
 
 ## Overview
 
@@ -38,11 +36,9 @@ Three caption sources are evaluated:
 
 ## Results
 
-Multimodal models consistently outperform the image only baseline when captions are
-informative. Text only captions perform best overall. Vision based captions provide
-little improvement. RemoteCLIP, a domain specific encoder pretrained on remote sensing
-data, performs competitively against general purpose encoders. A text scale ablation
-study confirms that different fusion strength is required by different image backbones.
+Text improves performance when captions are informative. Text only captions consistently perform best, while vision-based captions provide little or no improvement.
+
+SwinV2 benefits more from textual information than MaxViT, indicating that weaker models rely more on multimodal inputs, while stronger models already capture richer visual representations.
 
 ## Evaluation
 
